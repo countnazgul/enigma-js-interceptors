@@ -13,8 +13,8 @@ const session = enigma.create({
             // if the response is for object with type current-selections-modified
             if (request.method === 'GetLayout' && response.qInfo.qType == 'current-selections-modified') {
                 // if the above is valid then "flatten" the response
-                return response.qSelectionObject.qSelections.map(function (s) {
-                    return s.qSelectedFieldSelectionInfo.map(function (f) {
+                return response.qSelectionObject.qSelections.map((s) => {
+                    return s.qSelectedFieldSelectionInfo.map((f) => {
                         return {
                             field: s.qField,
                             value: f.qName
