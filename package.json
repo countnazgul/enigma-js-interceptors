@@ -1,0 +1,21 @@
+{
+  "name": "enigma-interceptor-example",
+  "version": "0.0.1",
+  "description": "Small script to demonstrate the usage of enigma.js interceptors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "enigma.js",
+    "interceptors",
+    "qlik",
+    "qlik-sense"
+  ],
+  "author": "Stefan Stoichev / sstoichev.eu / stefan.stoichev@gmail.com / @countnazgul",
+  "license": "MIT",
+  "dependencies": {
+    "enigma.js": "^2.7.1",
+    "ws": "^7.3.0"
+  }
+}
