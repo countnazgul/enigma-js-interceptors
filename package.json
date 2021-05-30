@@ -16,6 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "enigma.js": "^2.7.1",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   }
 }
